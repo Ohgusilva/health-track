@@ -1,0 +1,91 @@
+.container-fluid.text-center{
+   height: 60px;
+   background: #f1f1f1;
+   display: inline-grid;
+   justify-content: center;
+   align-content: center;
+   border-bottom: 3px solid black;
+}
+
+
+
+.login-form{
+	width: 360px;
+	height: 560px;
+	padding: 40px 40px;
+	border-radius: 5px;
+	position: absolute;
+	background: #f1f1f1;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -25%);
+}
+
+.login-form h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.txtb{
+	border: none;
+	position: relative;
+	margin: 30px 0;
+}
+
+.loginbtn{
+	background: #0EE0FB;
+	width: 100%;
+	height: 10%;
+	margin-bottom: 10px;
+	border: none;
+	color: white;
+}
+
+.logbtn{
+	background: #fff;
+	width: 100%;
+	height: 10%;
+	margin-bottom: 10px;
+	border: 1px solid #0EE0FB;
+	color: #0EE0FB;
+}
+
+.bottom-text{
+	margin-bottom: 15px;
+}
+
+h6{
+	text-align: center;
+}
+
+form .btn-social{
+	color: #fff;
+	border: 0px;
+	display: inline-block;
+	margin: 0px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+form .btn-facebook{
+	background: #4866a8;
+	margin-top: 15px;
+	margin-left: 38px;
+}
+
+form .btn-google{
+	background: #da3f34;
+	width: 35%;
+	margin-top: 15px;
+}
+
+form .btn-facebook:hover{
+	background: #3d5785;
+	color: #fff;
+}
+
+form .btn-google:hover{
+	background: #bf3b31;
+	color: #fff;
+}
+
